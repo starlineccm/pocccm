@@ -92,16 +92,16 @@ namespace FluxoVendaCartoes
 
 
 
-            //Efetuar Login
-            driver.FindElement(By.Id("login_username")).Clear();
-            driver.FindElement(By.Id("login_username")).SendKeys(login);
-            driver.FindElement(By.Id("login_password")).Clear();
-            driver.FindElement(By.Id("login_password")).SendKeys(senha);
-            Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//button[@type='submit']")).Click();
-            Thread.Sleep(2000);
+            ////Efetuar Login
+            //driver.FindElement(By.Id("login_username")).Clear();
+            //driver.FindElement(By.Id("login_username")).SendKeys(login);
+            //driver.FindElement(By.Id("login_password")).Clear();
+            //driver.FindElement(By.Id("login_password")).SendKeys(senha);
+            //Thread.Sleep(2000);
+            //driver.FindElement(By.XPath("//button[@type='submit']")).Click();
+            //Thread.Sleep(2000);
 
-            wait(By.Id("text-login-msg"));
+            //wait(By.Id("text-login-msg"));
 
         }
 
